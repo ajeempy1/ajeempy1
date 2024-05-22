@@ -1,0 +1,42 @@
+.d-flex {
+    align-items: center;
+    padding: 10px 10px;
+    background-color: #000;
+    color: #fff;
+    height: 10vh;
+    display: flex; /* Ensure it's a flex container */
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .brand img {
+    width: 80px;
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+  .brand span {
+    color: #FEC917;
+    text-transform: uppercase;
+  }
+  
+  .top-md-nav {
+    margin-bottom: 0; /* Remove default margin */
+  }
+  
+  .btn-w-outline {
+    background: #FEC917;
+    border: 1px solid #FEC917; /* Change border color to #FEC917 */
+    border-radius: 0px;
+    color: #FEC917; /* Change text color to #FEC917 */
+    margin-right: 10px; /* Adjust the gap between buttons */
+  }
+  
+  .btn-w-outline:hover {
+    background: #FEC917; /* Change background color on hover to #FEC917 */
+    color: #000;
+    border: 1px solid #FEC917; /* Change border color on hover to #FEC917 */
+  }
+  
