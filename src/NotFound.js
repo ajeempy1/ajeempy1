@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import Header from './Header';
 
-class App extends Component {
+class NotFound extends Component {
   render() {
     return (
       <div>
-        <Header />
+        404 - Not Found
       </div>
     );
   }
 }
 
-export default App;
+export default NotFound;
