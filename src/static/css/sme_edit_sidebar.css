@@ -1,0 +1,45 @@
+.contenedor-menu {
+    width: 250px;
+    background-color: black;
+    height: 70vh;
+    padding-top: 20px;
+    border: 1px solid black;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s; /* Add color transition */
+}
+
+.menu a:hover {
+    background-color: #FEC917;
+    color: black; /* Change text color on hover */
+}
+
+.menu li ul {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.menu li ul li {
+    padding: 10px;
+    background-color: black;
+    color: #FEC917;
+}

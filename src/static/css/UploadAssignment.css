@@ -1,0 +1,42 @@
+.form-div {
+    margin: 20px;
+}
+
+.form-input {
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-input[type="file"] {
+    padding: 3px; /* Adjust padding for file input to match the appearance */
+}
+
+textarea.form-input {
+    resize: vertical;
+    height: 100px; /* Set a fixed height for textarea */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}

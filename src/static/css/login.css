@@ -1,0 +1,73 @@
+/* Styling for the main container */
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.min-vh-100 {
+  min-height: 100vh;
+}
+
+/* Styling for the form */
+.second-form {
+    margin-top: 41px;
+    margin-bottom: 40px;
+    width: 20%;
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+.second-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.second-form input[type='text'],
+.second-form input[type='email'],
+.second-form input[type='number'],
+.second-form input[type='password'],
+.second-form select {
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-left: 30px;
+  border: 1px solid #ced4da; /* Gray border */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-action {
+  display: flex;
+  align-items: center;
+}
+
+.form-action a,
+.form-action input[type="submit"] {
+  flex: 1; /* Grow to fill available space */
+  margin: 5px; /* Add margin for spacing */
+  padding: 5px; /* Add padding for space inside the box */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline from the link */
+  color: #333; /* Set text color */
+}
+
+.form-action input[type="submit"] {
+  background-color: #FEC917; /* Blue button background */
+  color: #333; /* Button text color */
+  border: none; /* Remove border for the button */
+  cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.form-action input[type="submit"]:hover,
+.form-action a:hover {
+  background-color: #fc9803; /* Darker blue on hover */
+}
+
+
+

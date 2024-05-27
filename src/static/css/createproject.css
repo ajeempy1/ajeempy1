@@ -1,0 +1,27 @@
+
+.form-action2 {
+  display: flex;
+  align-items: center;
+}
+
+.form-action2 a,
+.form-action2 input[type="submit"] {
+  flex: 1; /* Grow to fill available space */
+  margin: 5px; /* Add margin for spacing */
+  padding: 2px 5px; /* Adjust padding for space inside the button */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 5px; /* Add border radius */
+  text-align: center; /* Center the text */
+  text-decoration: none; /* Remove underline from the link */
+  color: #333; /* Set text color */
+  font-size: 14px; /* Adjust font size */
+}
+
+.form-action2 input[type="submit"] {
+  background-color: #FEC917; /* Blue button background */
+}
+
+.form-action2 input[type="submit"]:hover,
+.form-action2 a:hover {
+  background-color: #fc9803; /* Darker blue on hover */
+}

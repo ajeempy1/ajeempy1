@@ -1,0 +1,23 @@
+.form-div2 {
+    border: 2px solid #FEC917; /* Add border */
+    border-radius: 20px; /* Add border radius */
+    padding: 20px; /* Add padding */
+    background-color: black; /* Add background color */
+    margin-top: 50px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure borders do not have space between them */
+}
+
+.table th, .table td {
+    border: 1px solid #ddd; /* Add border to table cells */
+    padding: 8px; /* Add padding to table cells */
+    text-align: left; /* Align text to the left */
+}
+
+.table th {
+    background-color: #f2f2f2; /* Background color for table headers */
+    font-weight: bold; /* Make table headers bold */
+}

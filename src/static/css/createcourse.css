@@ -1,0 +1,6 @@
+.form-control {
+    width: calc(59% - 32px);
+    border: 1px solid #ccc;
+    margin-left: 36%;
+    margin-top: -3%;
+}

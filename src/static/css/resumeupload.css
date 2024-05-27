@@ -1,0 +1,30 @@
+/* src/static/css/resume_upload.css */
+
+
+.resume-upload-container input[type="text"],
+.resume-upload-container input[type="file"] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+
+.resume-upload-container .form-action a:hover {
+    background-color: #fc9803;
+    color: #fff;
+}
+
+
+.resume-upload-container .form-action input[type="submit"]:hover {
+    background-color: #fc9803;
+}
+
+.resume-upload-container p {
+    margin-top: 10px;
+    color: red;
+}
